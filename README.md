@@ -47,8 +47,6 @@ python subscan.py -l example.com
 After the scan the program will create a report file showing all valid subdomains for the website.
 ```bash
 python subscan.py -s google.com
-Starting small scan on google.com...
-Finished scan
 ```
 ```text
 calendar.google.com : 142.250.189.110
