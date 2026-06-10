@@ -20,6 +20,8 @@ Clone or download this repository to your local machine:
    ```
 ## Usage
 
+[Video Demo](http://youtube.com/watch?v=pbGsupCCBXQ)
+
 | Argument | Description |
 |-----------|------------|
 | `-s`, `--small_scan` | Small top 5000 subdomain scan |
