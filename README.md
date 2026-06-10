@@ -43,7 +43,7 @@ python subscan.py --large_scan example.com
 python subscan.py -l example.com
 ```
 After the scan the program will create a report file showing all valid subdomains for the website.
-
+```text
 calendar.google.com : 142.250.189.110
 survey.google.com : 142.251.210.238
 jobs.google.com : 2607:f8b0:4009:80d::200e
@@ -53,7 +53,7 @@ edu.google.com : 142.251.41.78
 uploads.google.com : 108.170.217.160
 station.google.com : 2607:f8b0:4009:80d::200e
 activity.google.com : 2607:f8b0:4001:c6c::71
-
+```
 ## Notes
 
 If you suspect that your network is dropping your packets, it may be due to the high thread count. You can easily change this in the config.json file, set with the `max_threads` parameter.
