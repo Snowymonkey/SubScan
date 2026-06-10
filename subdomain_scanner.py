@@ -23,7 +23,7 @@ def scan_manager(website, type, max_threads):
     with ThreadPoolExecutor(max_workers=max_threads) as threader:
             results = threader.map(lambda subdomain: scan(subdomain + "." + website), subdomains)
         
-    with open(f"reports/{website}-subdomains", "w") as file:
+    with open(f"{website}-subdomains", "w") as file:
         i = 0
         for result in results:
             if result:
