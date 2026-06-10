@@ -42,7 +42,7 @@ python subscan.py -m example.com
 python subscan.py --large_scan example.com
 python subscan.py -l example.com
 ```
-
+After the scan the program will create a report file showing all valid subdomains for the website.
 ## Notes
 
 If you suspect that your network is dropping your packets, it may be due to the high thread count. You can easily change this in the config.json file, set with the `max_threads` parameter.
