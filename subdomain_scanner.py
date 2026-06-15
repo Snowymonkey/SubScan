@@ -17,7 +17,7 @@ def scan_manager(website, type, max_threads):
         subdomains = open("subdomains/subdomains-20000.txt", "r").read().split()
 
     else:
-        subdomains = open("subdomains/subdomains-1100000.txt", "r").read().split()
+        subdomains = open("subdomains/subdomains-110000.txt", "r").read().split()
     
 
     with ThreadPoolExecutor(max_workers=max_threads) as threader:
