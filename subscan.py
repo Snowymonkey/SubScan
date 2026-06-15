@@ -29,7 +29,7 @@ group.add_argument(
 
 group.add_argument(
     "-l",
-    "--large",
+    "--large_scan",
     help="Large top 110000 subdomain scan"
 )
 
