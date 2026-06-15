@@ -41,12 +41,12 @@ if args.small_scan:
     print("Finished scan")
 
 elif args.medium_scan:
-    print(f"Starting medium scan on {args.small_scan}...")
+    print(f"Starting medium scan on {args.medium_scan}...")
     scan_manager(args.medium_scan, "m", max_threads)
     print("Finished scan")
 
 elif args.large_scan:
-    print(f"Starting large scan on {args.small_scan}...")
+    print(f"Starting large scan on {args.large_scan}...")
     scan_manager(args.large_scan, "l", max_threads)
     print("Finished scan")
 
